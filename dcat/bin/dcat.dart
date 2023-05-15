@@ -13,6 +13,7 @@ void main(List<String> arguments) {
   final paths = argResults.rest;
 
   dcat(paths, showLineNumbers: argResults[lineNumber] as bool);
+  print('done');
 }
 
 Future<void> dcat(List<String> paths, {bool showLineNumbers = false}) async {
